@@ -1,0 +1,90 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding:0;
+      font-family: 'Rockwell', sans-serif;
+    }
+
+    /*volatile backround image source , put video as backround,landing page or behind a square
+
+body {
+  background-image: url('https://www.wamoresearch.org/wp-content/uploads/2018/04/cool-background-designs-26.jpg');
+}
+
+*/
+
+
+    /* Style the header */
+    .header {
+      text-align: center;
+    }
+
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      
+    }
+
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Create three equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 15px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width:600px) {
+      .column {
+        width: 100%;
+      }
+    }
+
+@media screen and (max-width:768px) {
+
+  .topnav {
+  position: realative;
+}
+  
+  .topnav {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0;
+  width: 100%;
+
+    /*
+      position: absolute;
+  */
+    
+    top: 80px;
+    left: -100%;
+  }
+  
+}
+
+
+  
